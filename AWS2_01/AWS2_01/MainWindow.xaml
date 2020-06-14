@@ -1,0 +1,16 @@
+﻿<Window x:Class="AWS2_01.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AWS2_01"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="700">
+    <Canvas x:Name="canvas">
+        <Button Width="150" Height="30" Content="Detecting Unsafe Content" Name="DetectingUnsafeContent" Click="DetectingUnsafeContent_Click" Canvas.Left="0" Canvas.Top="0"/>
+        <Button Width="150" Height="30" Content="Finding Text In Image" Name="FindTextInImage" Click="FindTextInImage_Click" Canvas.Left="160" Canvas.Top="0"/>
+        <Button Width="150" Height="30" Content="Translate" Name="TranslatePage" Click="TranslatePage_Click" Canvas.Left="320" Canvas.Top="0"/>
+        <Button Width="150" Height="30" Content="Synthesized" Name="TextToSpeech" Click="TextToSpeech_Click" Canvas.Left="480" Canvas.Top="0"/>
+        <Frame x:Name="Main" Margin="0, 35, 0, 0"/>
+    </Canvas>
+</Window>
